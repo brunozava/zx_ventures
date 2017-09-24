@@ -37,4 +37,5 @@ end
 Then(/^I should see the message "([^"]*)"$/) do |message|
     @expected_message = message
     expect(nav.welcome_message.text).to have_content @expected_message
-end
+end                                                                            
+                                                                                  

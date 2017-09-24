@@ -1,6 +1,6 @@
 Feature: Customer registration
 
-    As a user, I wanna create a new account in Ze Delivery or log in eStore
+    As a user, I wanna create a new account in Ze Delivery or log in - log out eStore
 
     Background:
     * access registration page

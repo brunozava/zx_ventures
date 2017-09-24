@@ -14,8 +14,8 @@ class OrderPage <SitePrism::Page
     def seleciona_endereco(endereco,numero,complemento)
         self.endereco.set endereco
         sleep(2)
-        self.endereco.native.send_key(:backspace)
-        self.endereco.native.send_key(:backspace)
+        #self.endereco.native.send_key(:backspace)
+        #self.endereco.native.send_key(:backspace)
         self.endereco.native.send_key(:arrow_down)
         self.endereco.native.send_key(:enter)
         self.numero.set numero

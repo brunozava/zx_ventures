@@ -1,6 +1,6 @@
 Given(/^I have the address and product information$/) do
   order.load
-  @address = 'Avenida paulista  '
+  @address = 'Avenida paulista '
   @numero = '55'
   @complemento = 'Teste'
   @busca = 'Brahma 269ml - Pack com 15 Unidades'

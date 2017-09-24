@@ -21,7 +21,7 @@ Scenario: Place an order with an active user using Debito payment type
     Then order should be placed 
 
 @order_dinheiro
-Scenario: Place an order with an active user using Debito payment type
+Scenario: Place an order with an active user using Dinheiro payment type
     Given I have the address and product information
     And I have a valid email "teste@testezava.com" and password "Zava@123"
     When I do login

@@ -13,6 +13,8 @@ class IdPage <SitePrism::Page
     element :email_existente, 'div input[placeholder=Email]'
     element :senha_existente, 'div input[placeholder=Senha]'
     element :botao_entrar, 'button[type=submit]'
+    element :minha_conta, '#account'
+    element :sair, 'span[class="glyphicon glyphicon-logout"]'
 
     
     def salva_conta(customer)
@@ -34,6 +36,11 @@ class IdPage <SitePrism::Page
         self.email_existente.set email
         self.senha_existente.set senha
         self.botao_entrar.click
+    end
+
+    def logout
+        self.minha_conta.click
+        self.sair.click
     end
 
   
